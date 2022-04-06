@@ -41,19 +41,34 @@ As the trading APR for weUSDC/UST pool is approx. 2.5%, the pool should be aggre
 
 ## Specification
 
-In order for us to provide a deep enough liquidity, the pool should aim to build up to total liquidity of at least $20mil. I propose that the Astral Assembly provides Astro emissions to approximately 4100 ASTRO tokens per day for a period of 3 months (369,000 ASTRO for 3 months).
+Listing down various feedbacks I’ve received from various channels:
 
-The estimated rewards APR is shown below for various levels of liquidity.
+Target liquidity of $20mil may be too shallow
+There are 3 types of USDC LP pools which will require deep liquidity
+Incentives could originate from the Terra community pool in which rewards can be paid in Luna / UST
+While I agree that a deep liquidity pool for USDC-UST will be beneficial for Terra, I would suggest to hold off incentives from the community pool until Retrograde / Reactor / Apollo goes live, where bribes can be paid with Luna or UST to direct emissions to these pools, thus, improving the efficiency of Astro votes / UST bribe. Astro emissions to the pool can be easily redirected if there voters are not keen on continuing on with the emissions to these pools, hence, I’d hold off this until the Convex-like protocols are launched.
 
-|Liquidity in weUSDC/UST pool|Astro APR|
-| --- | --- | --- | --- |
-|$5,000,000|62%|
-|$10,000,000|31%|
-|$20,000,000|15.5%|
-|$50,000,000|6.2%|
-|$100,000,000|3%|
+As for the first 2 points, I do agree on incentivising all 3 pools to a target of $50mil value at a target APR of 18%. Since the Dynamic Rate for Anchor Earn poll has been passed, we can expect that in the first month, the APY for Anchor Earn will drop from 19.5% to 18%. Therefore, depositors will be looking for an alternative to deposit their UST.
 
-(estimated APR values assume that $ASTRO = $2.10)
+With an Astro price of $2.35 at writing, I would propose the following:
+
+USDC-UST Pools	Mth 1 Astro Emissions	Mth 2 Astro Emissions	Mth 3 Astro Emissions
+weUSDC-UST LP	320,000	320,000	320,000
+wpoUSDC-UST LP	320,000	320,000	320,000
+wsoUSDC-UST LP	320,000	320,000	320,000
+Total Emissions	960,000	960,000	960,000
+With the above emissions, the estimated rewards APR will be revised to:
+
+Liquidity in LP Pool	Astro APR
+$10,000,000	90.2%
+$20,000,000	45.1%
+$50,000,000	18.0%
+$100,000,000	9.0%
+$200,000,000	4.5%
+(estimated APR values assume that $ASTRO = $2.35)
+
+To avoid further dilution to the 1st year’s emission of 100,000,000 tokens which currently emits 8.33mil Astro tokens per month, I propose to reduce the emissions for all pools listed below by 11.52% to accommodate for the 920k ASTRO emissions to the 3 stablecoin pools above.
+Post 3 months, we might expect that Astro price has risen and Astral Assembly has gone live for gauge voting, the renewal of emissions can be decided by Astral Assembly.
 
 ## Copyright
 
